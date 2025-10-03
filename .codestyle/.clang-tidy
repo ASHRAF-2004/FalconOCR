@@ -1,0 +1,7 @@
+Checks: >
+  bugprone-*,performance-*,readability-*,modernize-*,cppcoreguidelines-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  -cppcoreguidelines-owning-memory
+WarningsAsErrors: ''
+HeaderFilterRegex: '^(src|include)/'
+AnalyzeTemporaryDtors: false
